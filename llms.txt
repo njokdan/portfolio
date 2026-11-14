@@ -1,0 +1,36 @@
+# Daniel Njoku
+
+> Daniel Njoku is a software engineer based in Lagos, Nigeria, who designs, builds and ships web, mobile, cloud and security products. He works at Infoassure Limited as a Software Engineer and Cybersecurity Solution Analyst, founded the learning games studio Mantra Worlds, and consults independently on Odoo ERP.
+
+Location: Lagos, Nigeria. Contact: njokdan@gmail.com, WhatsApp +234 809 445 1628. Last updated 2026-11-14.
+
+## Case studies
+
+- [Kashfinda](https://njokdan.github.io/portfolio/work/kashfinda/): Kashfinda is a live proximity cash-exchange marketplace for Nigeria, built by Daniel Njoku. People find someone nearby with physical naira, pay them by bank transfer and collect the cash in person, with a six-digit code confirming each handover and verification tiers from ₦20,000 to ₦500,000.
+- [Danfo Code](https://njokdan.github.io/portfolio/work/danfo-code/): Danfo Code is a free, ad-free browser game where children aged 6 and up write real Python to drive a yellow danfo bus across Lagos. Daniel Njoku created it as the flagship of his studio Mantra Worlds; it runs on Cloudflare with a Supabase backend and follows the Nigeria Data Protection Act.
+- [Guardsbase](https://njokdan.github.io/portfolio/work/guardsbase/): Guardsbase is a live platform, built by Daniel Njoku, that connects licensed security guards in Canada with shifts at security companies. It handles real-time scheduling, geofenced check-in, licence and permit tracking aligned with PIPEDA, and weekly direct-deposit payouts, on web and mobile.
+- [ToonMate](https://njokdan.github.io/portfolio/work/toonmate/): ToonMate is a live AI animation platform at toonm8.com, built by Daniel Njoku. A Python backend queues each video job with Celery and Redis, routes it to several AI video providers, and voices it in 12 languages. The case study covers five production bugs he found and fixed on Render.
+- [Attestana](https://njokdan.github.io/portfolio/work/attestana/): Attestana is a deepfake and misinformation detection platform in development by Daniel Njoku, starting with Nigeria. It fuses three detection signals into a confidence-banded verdict, checks claims against what public figures have confirmed, takes tips over WhatsApp and flags real media shown out of context. It has 451 automated tests passing.
+- [Blue Watch Academy](https://njokdan.github.io/portfolio/work/blue-watch/): Blue Watch Academy is a live cybersecurity training platform built by Daniel Njoku that takes people from zero to job-ready in security operations and incident response. It has 31+ courses, 156+ lessons, 24+ scored labs, AI-marked incident reports and verifiable certificates, and its source is public on GitHub.
+- [Mantra Worlds](https://njokdan.github.io/portfolio/work/mantra-worlds/): Mantra Worlds is a Lagos learning games studio founded by Daniel Njoku. It makes free games that teach the industries that run Africa, with 20 titles in its catalogue: Danfo Code is live, Agric Kingdom is in public beta, and the rest are in prototype. Every game passes a data protection launch gate before release.
+- [Payroll reconciliation](https://njokdan.github.io/portfolio/work/payroll-audit/): Before moving a Nigerian manufacturing group's payroll into Odoo, Daniel Njoku reverse-engineered it from 19 PDF salary sheets covering 253 employees. Every payslip reconciled to the kobo except 13 documented anomalies, and he flagged that flat-rate PAYE conflicted with the Nigeria Tax Act 2025.
+
+## Live products
+
+- [Kashfinda](https://kashfinda.com): Live
+- [Danfo Code](https://danfocode.com): Live
+- [Guardsbase](https://guardsbase.com): Live
+- [ToonMate](https://toonm8.com): Live
+- [Blue Watch Academy](https://blue-watch-academy.pages.dev): Live
+- [Mantra Worlds](https://mantraworlds.com): Live
+
+## Profiles
+
+- [LinkedIn](https://www.linkedin.com/in/daniel-njoku-9790645b/)
+- [GitHub](https://github.com/njokdan)
+- [X](https://x.com/njokudanielo)
+- [Odoo consulting](https://njokdan.github.io/)
+
+## Optional
+
+- [Full text of every case study](https://njokdan.github.io/portfolio/llms-full.txt)

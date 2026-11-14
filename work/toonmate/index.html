@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ToonMate: AI animation platform case study | Daniel Njoku</title>
+<meta name="description" content="How Daniel Njoku built ToonMate, an AI animation platform on Python, Celery, Redis and Docker on Render, and the five production bugs he fixed.">
+<meta name="author" content="Daniel Njoku">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<link rel="canonical" href="https://njokdan.github.io/portfolio/work/toonmate/">
+<meta name="theme-color" content="#F4C20D">
+<link rel="icon" href="/portfolio/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/portfolio/apple-touch-icon.png"><link rel="manifest" href="/portfolio/site.webmanifest"><link rel="alternate" type="text/plain" title="LLM summary" href="/portfolio/llms.txt">
+<meta property="og:site_name" content="Daniel Njoku">
+<meta property="og:locale" content="en_NG">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ToonMate: AI animation platform case study | Daniel Njoku">
+<meta property="og:description" content="How Daniel Njoku built ToonMate, an AI animation platform on Python, Celery, Redis and Docker on Render, and the five production bugs he fixed.">
+<meta property="og:url" content="https://njokdan.github.io/portfolio/work/toonmate/">
+<meta property="og:image" content="https://njokdan.github.io/portfolio/og/toonmate.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ToonMate: AI animation platform case study | Daniel Njoku">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@njokudanielo"><meta name="twitter:creator" content="@njokudanielo">
+<meta name="twitter:title" content="ToonMate: AI animation platform case study | Daniel Njoku"><meta name="twitter:description" content="How Daniel Njoku built ToonMate, an AI animation platform on Python, Celery, Redis and Docker on Render, and the five production bugs he fixed."><meta name="twitter:image" content="https://njokdan.github.io/portfolio/og/toonmate.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "@id": "https://njokdan.github.io/portfolio/work/toonmate/#article", "headline": "ToonMate: AI animation platform case study", "description": "How Daniel Njoku built ToonMate, an AI animation platform on Python, Celery, Redis and Docker on Render, and the five production bugs he fixed.", "author": {"@id": "https://njokdan.github.io/portfolio/#person", "@type": "Person", "name": "Daniel Njoku", "url": "https://njokdan.github.io/portfolio/"}, "publisher": {"@id": "https://njokdan.github.io/portfolio/#person", "@type": "Person", "name": "Daniel Njoku", "url": "https://njokdan.github.io/portfolio/"}, "datePublished": "2026-11-14", "dateModified": "2026-11-14", "image": "https://njokdan.github.io/portfolio/og/toonmate.png", "mainEntityOfPage": "https://njokdan.github.io/portfolio/work/toonmate/", "about": {"@id": "https://njokdan.github.io/portfolio/work/toonmate/#subject"}, "inLanguage": "en", "keywords": "Python, Celery, Redis, Docker, Render, Google sign-in, Text to speech"}, {"@id": "https://njokdan.github.io/portfolio/work/toonmate/#subject", "name": "ToonMate", "description": "Turns ideas into animated video by routing each job to the right AI video provider, in the background.", "@type": "SoftwareApplication", "applicationCategory": "MultimediaApplication", "operatingSystem": "Web browser", "creator": {"@id": "https://njokdan.github.io/portfolio/#person"}, "url": "https://toonm8.com"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Daniel Njoku", "item": "https://njokdan.github.io/portfolio/"}, {"@type": "ListItem", "position": 2, "name": "Work", "item": "https://njokdan.github.io/portfolio/#work"}, {"@type": "ListItem", "position": 3, "name": "ToonMate", "item": "https://njokdan.github.io/portfolio/work/toonmate/"}]}, {"@id": "https://njokdan.github.io/portfolio/#person", "@type": "Person", "name": "Daniel Njoku", "url": "https://njokdan.github.io/portfolio/"}]}</script>
+<link rel="preload" href="/portfolio/assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="/portfolio/assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a><header class="top">
+  <div class="wrap top-in">
+    <a class="me" href="/portfolio/">Daniel Njoku</a>
+    <span class="avail"><span aria-hidden="true"></span>Taking on new projects</span>
+    <nav aria-label="Main"><a href="/portfolio/#work">Work</a><a href="/portfolio/#services">Services</a><a href="/portfolio/#experience">Experience</a><a href="/portfolio/#faq">FAQ</a></nav>
+    <a class="btn btn-small" href="/portfolio/#contact">Let's talk</a>
+  </div>
+</header><main id="main"><article class="case" id="case-toonmate" aria-labelledby="h-toonmate">
+  <header class="case-head s-live">
+    <div class="wrap">
+      <nav class="crumb" aria-label="Breadcrumb"><ol><li><a href="/portfolio/">Home</a></li><li><a href="/portfolio/#work">Work</a></li><li aria-current="page">ToonMate</li></ol></nav>
+      <h1 id="h-toonmate">ToonMate</h1>
+      <p class="case-line">Turns ideas into animated video by routing each job to the right AI video provider, in the background.</p>
+      <p class="case-meta"><span class="pill p-live">Live</span><span>AI animation platform</span><span>Updated <time datetime="2026-11-14">14 November 2026</time></span></p>
+      <p class="case-links"><a class="btn" href="https://toonm8.com" target="_blank" rel="noopener">Visit toonm8.com</a><button class="btn btn-quiet copy" type="button" data-id="toonmate">Copy link</button></p>
+    </div>
+  </header>
+  <div class="wrap case-body">
+    <div class="prose">
+      <section class="tldr" aria-label="Summary"><h2>In short</h2><p>ToonMate is a live AI animation platform at toonm8.com, built by Daniel Njoku. A Python backend queues each video job with Celery and Redis, routes it to several AI video providers, and voices it in 12 languages. The case study covers five production bugs he found and fixed on Render.</p></section>
+      <section><h2>What problem does ToonMate solve?</h2><p>Generating video with AI takes minutes, providers fail in different ways, and quotas run out. A web request cannot wait that long, and one provider going down should not take the product down.</p></section><section><h2>What I built</h2><p>A Python backend with Google sign-in, where each video job goes onto a Celery queue backed by Redis. Background workers call several video providers, and Celery Beat runs scheduled jobs.</p><p>Text to speech in 12 languages, so animations can be voiced in Nigerian languages as well as English.</p><p>An admin platform for running the service, deployed from a Dockerfile on Render.</p></section><section><h2>Hard problems I fixed in production</h2><p>Every task ran twice. Both queues shared one exchange and routing key, so each job was delivered to both. I declared explicit exchanges and queues with distinct routing keys.</p><p>Workers ran out of memory loading an image-text model at startup. I moved workers to a larger instance and ran them one task at a time.</p><p>Scheduled jobs drifted after each deploy, because the scheduler&#x27;s state file lived on a disk that is wiped on redeploy. I switched to fixed clock schedules that need no stored state.</p><p>Database connections leaked across event loops inside tasks. I made each task dispose its database engines at start and finish.</p><p>When a provider&#x27;s key was malformed or its free quota ran out, jobs failed noisily. I added logging of provider error bodies and skip providers whose keys are missing.</p></section><section><h2>Where ToonMate is today</h2><p>ToonMate is live at toonm8.com and was introduced publicly on LinkedIn. It is also the first stage of my DeepCatch work on synthetic media, which continues in Attestana.</p></section>
+      <section class="goals-in-case"><h2>Global Goals ToonMate supports</h2>
+      <p>The UN Sustainable Development Goals this work contributes to. It supports these goals; it does not achieve them on its own.</p>
+      <ul class="sdgs"><li class="sdg"><span class="sdg-n" style="background:#FD6925">9</span><span><b>Goal 9: Industry, innovation and infrastructure</b><span class="sdg-note">Reliable AI media infrastructure built and run from Nigeria.</span></span></li><li class="sdg"><span class="sdg-n" style="background:#C5192D">4</span><span><b>Goal 4: Quality education</b><span class="sdg-note">Lets educators produce animated lessons in local languages.</span></span></li></ul></section>
+      <aside class="case-cta" aria-label="Work with me">
+        <h2>Production bugs that won&#x27;t go away?</h2>
+        <p>I'd love to hear what you're building. Tell me the problem and I'll reply within one working day.</p>
+        <p class="contact-cta"><a class="btn btn-ink" href="mailto:njokdan@gmail.com?subject=ToonMate%20enquiry" target="_blank" rel="noopener">Email me about it</a><a class="btn btn-quiet-ink" href="https://wa.me/2348094451628" target="_blank" rel="noopener">Chat on WhatsApp</a></p>
+      </aside>
+    </div>
+    <aside class="facts" aria-label="Key facts">
+      <h2>Key facts</h2>
+      <dl><div><dt>Role</dt><dd>Architecture, backend and deployment</dd></div><div><dt>Backend</dt><dd>Python, Celery workers and Celery Beat, Redis</dd></div><div><dt>Hosting</dt><dd>Docker on Render</dd></div><div><dt>Status</dt><dd>Live, with an admin platform</dd></div></dl>
+      <h2>Built with</h2><ul class="tags"><li>Python</li><li>Celery</li><li>Redis</li><li>Docker</li><li>Render</li><li>Google sign-in</li><li>Text to speech</li></ul>
+    </aside>
+  </div>
+  <nav class="wrap pager" aria-label="More case studies">
+    <a href="/portfolio/work/guardsbase/"><span>Previous</span>Guardsbase</a>
+    <a href="/portfolio/work/attestana/"><span>Next</span>Attestana</a>
+  </nav>
+</article><section class="contact" id="contact" aria-labelledby="contact-h">
+  <div class="wrap contact-in">
+    <div>
+      <h2 id="contact-h">Got a problem worth solving? Let's build it.</h2>
+      <p>New product, a rescue job, a mobile app, cloud and security work, or Odoo ERP. Tell me what you need and I'll reply within one working day.</p>
+      <p class="contact-cta"><a class="btn btn-ink" href="mailto:njokdan@gmail.com?subject=Project%20enquiry" target="_blank" rel="noopener">Email me</a><a class="btn btn-quiet-ink" href="https://calendly.com/njokdan/odoo-discovery-call" target="_blank" rel="noopener">Book a free 30-minute call</a></p>
+    </div>
+    <dl class="reach">
+      <div><dt>Email</dt><dd><a href="mailto:njokdan@gmail.com" target="_blank" rel="noopener">njokdan@gmail.com</a></dd></div>
+      <div><dt>WhatsApp</dt><dd><a href="https://wa.me/2348094451628" target="_blank" rel="noopener">+234 809 445 1628</a></dd></div>
+      <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/daniel-njoku-9790645b/" target="_blank" rel="noopener">Daniel Njoku</a></dd></div>
+      <div><dt>GitHub</dt><dd><a href="https://github.com/njokdan" target="_blank" rel="noopener">njokdan</a></dd></div>
+      <div><dt>X</dt><dd><a href="https://x.com/njokudanielo" target="_blank" rel="noopener">@njokudanielo</a></dd></div>
+      <div><dt>Odoo consulting</dt><dd><a href="https://njokdan.github.io/" target="_blank" rel="noopener">njokdan.github.io</a></dd></div>
+    </dl>
+  </div>
+</section></main><footer class="foot"><div class="wrap foot-in"><p>Daniel Njoku, software engineer in Lagos, Nigeria. Figures on this site are as built, not projected. Last updated <time datetime="2026-11-14">14 November 2026</time>.</p><p><a href="/portfolio/llms.txt">llms.txt</a><a href="/portfolio/sitemap.xml">Sitemap</a></p></div></footer><div class="toast" role="status" aria-live="polite"></div><script>window.PF={single:false,site:"https://njokdan.github.io/portfolio/"};</script><script src="/portfolio/assets/app.js" defer></script></body></html>

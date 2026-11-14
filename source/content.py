@@ -306,14 +306,14 @@ MORE = [
 ]
 
 EXPERIENCE = [
-    ("Cybersecurity Solution Analyst", "Infoassure Limited", "May 2026 to now", "On-site, Lagos",
-     "Security solutions for an auditing and GRC SaaS company, including a database activity monitoring proof of concept."),
-    ("Software Engineer", "Infoassure Limited", "Sept 2025 to now", "Hybrid, Lagos",
-     "Secure cloud and full-stack work on the company's GRC platform."),
     ("Independent Odoo ERP Consultant", "Self-employed", "Nov 2026 to now", "Remote",
      "Implementation, customisation, HR and payroll for clients through a Lagos Odoo partner."),
+    ("Cybersecurity Solution Analyst", "Infoassure Limited", "May 2026 to now", "On-site, Lagos",
+     "Security solutions for an auditing and GRC SaaS company, including a database activity monitoring proof of concept."),
     ("Founder", "Mantra Worlds", "2026 to now", "Lagos",
      "Learning games and simulation studio."),
+    ("Software Engineer", "Infoassure Limited", "Sept 2025 to now", "Hybrid, Lagos",
+     "Secure cloud and full-stack work on the company's GRC platform."),
     ("Cloud Technical Support Engineer", "Teknowledge", "Dec 2021 to Aug 2025", "Remote",
      "Supported and troubleshot customer workloads on Microsoft Azure App Services for almost four years."),
 ]
@@ -336,3 +336,136 @@ SKILLS = [
     ("Security", "GRC, identity and access review, database activity monitoring, LLM security, NDPA and PIPEDA compliance"),
     ("ERP", "Odoo Online and Odoo.sh: accounting, invoicing, HR, payroll, Studio, Python and QWeb"),
 ]
+
+
+# ---------------- v2: SEO / AEO / sales layer ----------------
+UPDATED = "2026-11-14"
+UPDATED_HUMAN = "14 November 2026"
+BASE_PATH = "/portfolio/"          # change to "/" if the portfolio moves to its own domain
+OPEN_TO_ROLES = False              # True adds "open to remote roles" wording publicly (your employer can see it)
+
+HERO = {
+    "hello": "Hi, I'm Daniel Njoku, a software engineer in Lagos.",
+    "h1": "I turn real-world problems into software people actually use.",
+    "intro": ("Cash that's hard to find. Guard shifts that won't fill. Children who deserve to learn real code. "
+              "I design, build and ship the whole product, from web and mobile apps to the cloud and security behind them, "
+              "and I kept customer apps on Microsoft Azure running for almost four years."),
+    "route_hint": "Oya, pick a stop.",
+}
+
+PROOF = [
+    ("6", "products live on the web"),
+    ("3", "app platforms shipped: web, Android, iOS"),
+    ("20", "learning games in my studio"),
+    ("253", "employees' pay reconciled to the kobo"),
+    ("451", "automated tests on Attestana"),
+]
+
+WHY = [
+    ("I ship the whole thing",
+     "Kashfinda went out as a web app, a cross-platform app and native Android and iOS apps. Design, backend, mobile and deployment, end to end.",
+     "kashfinda"),
+    ("I get the details right",
+     "I rebuilt a factory's payroll from 19 PDF salary sheets and matched 253 employees to the kobo, then wrote up the 13 that didn't fit instead of hiding them.",
+     "payroll-audit"),
+    ("I build for real conditions",
+     "Shared family phones, patchy networks, licences that lapse and privacy law. I design for them from day one, so products hold up after launch.",
+     "danfo-code"),
+]
+
+SERVICES = [
+    ("Build your product", "From idea to a launched first version on web and mobile, with the admin tools you need to run it.", "kashfinda"),
+    ("Mobile apps", "Cross-platform apps in React Native, and native Android and iOS when the product calls for it.", "guardsbase"),
+    ("Cloud and DevOps", "Deploy, scale and steady your app on Azure, AWS, Cloudflare or Render, and track down the production bugs that keep coming back.", "toonmate"),
+    ("Security and compliance", "Products built to pass the Nigeria Data Protection Act and similar laws, plus access reviews and GRC support.", "blue-watch"),
+    ("Odoo ERP", "Implementation, invoices, HR and payroll on Odoo Online and Odoo.sh.", None),
+]
+
+PROCESS = [
+    ("A free 30-minute call", "Tell me what you're trying to fix or build. I'll tell you honestly whether I'm the right person."),
+    ("A clear plan", "A written scope, timeline and price before any work starts. No surprises later."),
+    ("Working software every week", "You see real progress in a short demo each week, not slides."),
+    ("Launch and handover", "Deployed, documented and yours, with the code in your own repository."),
+]
+
+FAQ = [
+    ("Who is Daniel Njoku?",
+     "Daniel Njoku is a software engineer based in Lagos, Nigeria, who designs, builds and ships web, mobile, cloud and security products. "
+     "He works at Infoassure Limited as a Software Engineer and Cybersecurity Solution Analyst, founded the learning games studio Mantra Worlds, "
+     "and consults independently on Odoo ERP."),
+    ("What has Daniel Njoku built?",
+     "His live products include Kashfinda, a proximity cash-exchange marketplace for Nigeria; Danfo Code, a free game that teaches children Python; "
+     "Guardsbase, a shift and compliance platform for security guards in Canada; ToonMate, an AI animation platform; and Blue Watch Academy, "
+     "a cybersecurity training platform. Attestana, a deepfake and misinformation checker, is in development."),
+    ("What technologies does Daniel Njoku work with?",
+     "TypeScript, JavaScript, Python, PHP and Rust; Next.js, React, Vue, Node.js, FastAPI and Laravel on the web; React Native and native Android and iOS on mobile; "
+     "Microsoft Azure, AWS, Cloudflare, Render and Docker in the cloud; PostgreSQL, Supabase, Redis and Celery for data and background jobs; and Odoo for ERP."),
+    ("Does Daniel Njoku build mobile apps?",
+     "Yes. He built the cross-platform mobile apps for Kashfinda and Guardsbase, and native Android and iOS apps for Kashfinda."),
+    ("Does Daniel Njoku work with clients outside Nigeria?",
+     "Yes. Guardsbase serves security companies in Canada, he has built an e-commerce platform for a UK business selling into the UK, US and Canada, "
+     "and he takes Odoo ERP clients worldwide."),
+    ("How do I hire Daniel Njoku?",
+     "Email njokdan@gmail.com, message +234 809 445 1628 on WhatsApp, or book a free 30-minute call. "
+     "Projects start with a written scope, timeline and price, then a short demo of working software every week until launch."),
+]
+
+# Per case: answer-first summary, SEO title/description, schema hints, closing CTA
+EXTRA = {
+    "kashfinda": dict(
+        tldr="Kashfinda is a live proximity cash-exchange marketplace for Nigeria, built by Daniel Njoku. People find someone nearby with physical naira, pay them by bank transfer and collect the cash in person, with a six-digit code confirming each handover and verification tiers from ₦20,000 to ₦500,000.",
+        title="Kashfinda: cash-exchange app case study | Daniel Njoku",
+        desc="How Daniel Njoku built Kashfinda, a live Nigerian marketplace for finding cash nearby, on web, Android and iOS, with tiered KYC and code-confirmed handovers.",
+        schema="SoftwareApplication", cat="FinanceApplication", os="Web, Android, iOS",
+        cta="Need a marketplace or fintech app built?"),
+    "danfo-code": dict(
+        tldr="Danfo Code is a free, ad-free browser game where children aged 6 and up write real Python to drive a yellow danfo bus across Lagos. Daniel Njoku created it as the flagship of his studio Mantra Worlds; it runs on Cloudflare with a Supabase backend and follows the Nigeria Data Protection Act.",
+        title="Danfo Code: Python coding game for kids | Daniel Njoku",
+        desc="Danfo Code is a free game that teaches Nigerian children real Python by driving a danfo through Lagos. Built by Daniel Njoku on Cloudflare and Supabase.",
+        schema="SoftwareApplication", cat="EducationalApplication", os="Web browser",
+        cta="Want a learning product people actually finish?"),
+    "guardsbase": dict(
+        tldr="Guardsbase is a live platform, built by Daniel Njoku, that connects licensed security guards in Canada with shifts at security companies. It handles real-time scheduling, geofenced check-in, licence and permit tracking aligned with PIPEDA, and weekly direct-deposit payouts, on web and mobile.",
+        title="Guardsbase: security guard shift platform | Daniel Njoku",
+        desc="How Daniel Njoku built Guardsbase, a live Canadian platform for security guard shifts with geofenced check-in, licence tracking and payouts, on web and mobile.",
+        schema="SoftwareApplication", cat="BusinessApplication", os="Web, Android, iOS",
+        cta="Running shift work or field staff?"),
+    "toonmate": dict(
+        tldr="ToonMate is a live AI animation platform at toonm8.com, built by Daniel Njoku. A Python backend queues each video job with Celery and Redis, routes it to several AI video providers, and voices it in 12 languages. The case study covers five production bugs he found and fixed on Render.",
+        title="ToonMate: AI animation platform case study | Daniel Njoku",
+        desc="How Daniel Njoku built ToonMate, an AI animation platform on Python, Celery, Redis and Docker on Render, and the five production bugs he fixed.",
+        schema="SoftwareApplication", cat="MultimediaApplication", os="Web browser",
+        cta="Production bugs that won't go away?"),
+    "attestana": dict(
+        tldr="Attestana is a deepfake and misinformation detection platform in development by Daniel Njoku, starting with Nigeria. It fuses three detection signals into a confidence-banded verdict, checks claims against what public figures have confirmed, takes tips over WhatsApp and flags real media shown out of context. It has 451 automated tests passing.",
+        title="Attestana: deepfake detection for Nigeria | Daniel Njoku",
+        desc="Attestana, in development by Daniel Njoku, detects deepfakes and out-of-context media for Nigeria, with a WhatsApp tipline, human review and 451 passing tests.",
+        schema="SoftwareApplication", cat="SecurityApplication", os="Web, API, WhatsApp",
+        cta="Working on trust, safety or misinformation?"),
+    "blue-watch": dict(
+        tldr="Blue Watch Academy is a live cybersecurity training platform built by Daniel Njoku that takes people from zero to job-ready in security operations and incident response. It has 31+ courses, 156+ lessons, 24+ scored labs, AI-marked incident reports and verifiable certificates, and its source is public on GitHub.",
+        title="Blue Watch Academy: SOC training platform | Daniel Njoku",
+        desc="Blue Watch Academy, built by Daniel Njoku, trains people for security operations with 31+ courses, 24+ scored labs and AI-marked reports.",
+        schema="SoftwareApplication", cat="EducationalApplication", os="Web browser",
+        cta="Need a training platform for your team?"),
+    "mantra-worlds": dict(
+        tldr="Mantra Worlds is a Lagos learning games studio founded by Daniel Njoku. It makes free games that teach the industries that run Africa, with 20 titles in its catalogue: Danfo Code is live, Agric Kingdom is in public beta, and the rest are in prototype. Every game passes a data protection launch gate before release.",
+        title="Mantra Worlds: African learning games studio | Daniel Njoku",
+        desc="Mantra Worlds, founded by Daniel Njoku, makes free learning games about African industries: 20 titles, with Danfo Code live and Agric Kingdom in beta.",
+        schema="Organization", cat=None, os=None,
+        cta="Want to build a game or simulation together?"),
+    "payroll-audit": dict(
+        tldr="Before moving a Nigerian manufacturing group's payroll into Odoo, Daniel Njoku reverse-engineered it from 19 PDF salary sheets covering 253 employees. Every payslip reconciled to the kobo except 13 documented anomalies, and he flagged that flat-rate PAYE conflicted with the Nigeria Tax Act 2025.",
+        title="Odoo payroll reconciliation case study | Daniel Njoku",
+        desc="How Daniel Njoku reverse-engineered a manufacturing group's payroll from 19 salary sheets, reconciled 253 employees to the kobo and prepared it for Odoo.",
+        schema="CreativeWork", cat=None, os=None,
+        cta="Moving payroll or invoices into Odoo?"),
+}
+
+QUESTION_HEADINGS = {
+    "The problem": "What problem does {name} solve?",
+    "What I built": "What I built",
+    "Key decisions": "Why I built it this way",
+    "Where it stands": "Where {name} is today",
+    "The idea": "Why Mantra Worlds exists",
+}
